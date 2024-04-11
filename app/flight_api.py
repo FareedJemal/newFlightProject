@@ -17,7 +17,7 @@ def search_flights_with_entity_ids(fromEntityId, toEntityId, departDate):
         "departDate": departDate
     }
     headers = {
-        "X-RapidAPI-Key": "ddfeaaf6e7mshf8f352856a366e4p115b58jsn9005b19e9de4",
+        "X-RapidAPI-Key": "10cdd209famsh781ed096709ba4bp107e55jsn4545335c66c3",
         "X-RapidAPI-Host": "sky-scanner3.p.rapidapi.com"
     }
     
@@ -68,7 +68,7 @@ def auto_complete(query):
     url = "https://sky-scanner3.p.rapidapi.com/flights/auto-complete"
     querystring = {"query": query}
     headers = {
-        "X-RapidAPI-Key": "ddfeaaf6e7mshf8f352856a366e4p115b58jsn9005b19e9de4",
+        "X-RapidAPI-Key": "10cdd209famsh781ed096709ba4bp107e55jsn4545335c66c3",
         "X-RapidAPI-Host": "sky-scanner3.p.rapidapi.com"
     }
     
