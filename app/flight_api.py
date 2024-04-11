@@ -1,13 +1,13 @@
 import requests
 import time
 
-#Fareed
+#Hisham
 # Function to format duration in minutes to "hours h minutes m" format
 def format_duration(minutes):
     hours, minutes = divmod(minutes, 60)
     return f"{hours}h {minutes}m"
 
-#Fareed
+#Hisham
 # Function to search flights using entity IDs
 def search_flights_with_entity_ids(fromEntityId, toEntityId, departDate):
     url = "https://sky-scanner3.p.rapidapi.com/flights/search-one-way"
